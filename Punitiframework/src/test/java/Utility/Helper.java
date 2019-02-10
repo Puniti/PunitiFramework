@@ -23,9 +23,7 @@ public class Helper {
 
 	}
 
-	public void getCurrentDateAndTime() {
 
-	}
 
 	public void handleFrameUsingID() {
 

@@ -16,7 +16,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setup() {
 		driver = BrowserFactory.startApplication(DataProviderFactory.getConfig().getURL(),
-				DataProviderFactory.getConfig().getBrowser());
+				DataProviderFactory.getConfig().getBrowser1());
 
 	}
 

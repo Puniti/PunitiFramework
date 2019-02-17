@@ -36,9 +36,17 @@ public class ConfigProviderFactory {
 	{
 		return pro.getProperty("stagingURL");
 	}
-	public String getBrowser()
+	public String getBrowser1()
 	{
-		return pro.getProperty("browser");
+		return pro.getProperty("browser1");
+	}
+	public String getBrowser2()
+	{
+		return pro.getProperty("browser2");
+	}
+	public String getBrowser3()
+	{
+		return pro.getProperty("browser3");
 	}
 
 }
